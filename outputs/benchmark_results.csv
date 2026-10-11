@@ -1,0 +1,26 @@
+n_cities,algorithm,category,complexity,tour_cost,execution_time_ms,execution_time_sec,optimality_gap_pct,status,route
+4,Held-Karp DP,Exact,O(n² · 2ⁿ),173.89,0.087,8.7e-05,0.00%,Success,A → D → C → B → A
+4,Brute Force,Exact,O(n!),173.89,0.0171,1.7e-05,0.00%,Success,A → B → C → D → A
+4,Nearest Neighbor,Greedy Heuristic,O(n²),173.89,0.0172,1.7e-05,0.00%,Success,A → D → C → B → A
+4,MST 2-Approximation,Approximation,O(n²),208.43,0.0553,5.5e-05,19.86%,Success,A → B → D → C → A
+6,Held-Karp DP,Exact,O(n² · 2ⁿ),194.73,0.4261,0.000426,0.00%,Success,A → D → C → F → B → E → A
+6,Brute Force,Exact,O(n!),194.73,0.1107,0.000111,0.00%,Success,A → D → C → F → B → E → A
+6,Nearest Neighbor,Greedy Heuristic,O(n²),194.73,0.0143,1.4e-05,0.00%,Success,A → E → B → F → C → D → A
+6,MST 2-Approximation,Approximation,O(n²),222.19,0.0423,4.2e-05,14.10%,Success,A → D → E → B → F → C → A
+8,Held-Karp DP,Exact,O(n² · 2ⁿ),227.94,2.9533,0.002953,0.00%,Success,A → D → C → H → F → G → B → E → A
+8,Brute Force,Exact,O(n!),227.94,12.0461,0.012046,0.00%,Success,A → D → C → H → F → G → B → E → A
+8,Nearest Neighbor,Greedy Heuristic,O(n²),227.94,0.0511,5.1e-05,0.00%,Success,A → E → B → G → F → H → C → D → A
+8,MST 2-Approximation,Approximation,O(n²),301.32,0.1377,0.000138,32.19%,Success,A → D → E → B → F → H → C → G → A
+10,Held-Karp DP,Exact,O(n² · 2ⁿ),237.71,25.1713,0.025171,0.00%,Success,A → J → D → H → C → I → F → G → B → E → A
+10,Brute Force,Exact,O(n!),237.71,773.1482,0.773148,0.00%,Success,A → E → B → G → F → I → C → H → D → J → A
+10,Nearest Neighbor,Greedy Heuristic,O(n²),265.2,0.0294,2.9e-05,11.56%,Success,A → J → D → E → B → G → F → I → H → C → A
+10,MST 2-Approximation,Approximation,O(n²),311.31,0.0722,7.2e-05,30.96%,Success,A → E → B → F → I → H → C → G → J → D → A
+12,Held-Karp DP,Exact,O(n² · 2ⁿ),245.03,85.8391,0.085839,0.00%,Success,A → E → L → B → G → F → I → H → C → K → D → J → A
+12,Nearest Neighbor,Greedy Heuristic,O(n²),274.93,0.0562,5.6e-05,12.20%,Success,A → J → D → E → L → B → G → F → I → H → C → K → A
+12,MST 2-Approximation,Approximation,O(n²),324.22,0.1421,0.000142,32.32%,Success,A → E → L → B → F → I → H → C → K → G → J → D → A
+14,Held-Karp DP,Exact,O(n² · 2ⁿ),256.43,303.009,0.303009,0.00%,Success,A → E → L → B → N → G → F → I → H → C → K → M → D → J → A
+14,Nearest Neighbor,Greedy Heuristic,O(n²),310.65,0.0433,4.3e-05,21.14%,Success,A → J → D → M → H → C → K → I → F → B → L → E → N → G → A
+14,MST 2-Approximation,Approximation,O(n²),354.44,0.107,0.000107,38.22%,Success,A → E → L → B → F → I → N → G → J → D → M → H → C → K → A
+16,Held-Karp DP,Exact,O(n² · 2ⁿ),260.71,1627.8056,1.627806,0.00%,Success,A → E → L → B → N → G → F → I → H → C → P → K → O → M → D → J → A
+16,Nearest Neighbor,Greedy Heuristic,O(n²),302.07,0.0524,5.2e-05,15.86%,Success,A → J → D → M → O → K → P → C → H → I → F → B → L → E → N → G → A
+16,MST 2-Approximation,Approximation,O(n²),380.94,0.1226,0.000123,46.12%,Success,A → E → L → B → F → I → N → G → J → D → M → O → K → C → H → P → A
